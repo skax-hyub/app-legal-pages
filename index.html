@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>App Legal Pages</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f7fb;
+      --text: #171827;
+      --muted: #686b78;
+      --card: #ffffff;
+      --primary: #7c3aed;
+      --line: #e8e6f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    main {
+      width: min(760px, calc(100% - 40px));
+      margin: 64px auto;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 32px;
+      box-shadow: 0 18px 50px rgba(30, 27, 75, 0.08);
+    }
+    h1 { margin: 0 0 8px; font-size: 34px; letter-spacing: 0; }
+    p { margin: 0 0 24px; color: var(--muted); }
+    a {
+      display: block;
+      padding: 16px 0;
+      color: var(--primary);
+      font-weight: 700;
+      text-decoration: none;
+      border-top: 1px solid var(--line);
+    }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <h1>App Legal Pages</h1>
+      <p>앱별 개인정보 처리방침과 지원 페이지입니다.</p>
+      <a href="/app-legal-pages/howlong/privacy.html">디데잇 개인정보 처리방침</a>
+      <a href="/app-legal-pages/howlong/support.html">디데잇 지원</a>
+    </section>
+  </main>
+</body>
+</html>
